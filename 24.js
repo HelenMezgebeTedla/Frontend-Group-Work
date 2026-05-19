@@ -1,5 +1,5 @@
 function calculateTotalValue(productsArray) {
-  let totalValue = 0; // The accumulator variable
+  let totalValue = 0; 
 
   for (let i = 0; i < productsArray.length; i++) {
     totalValue += productsArray[i].price * productsArray[i].stock;
